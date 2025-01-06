@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color:plum;
+    margin-top: 5%;
+}
+
+.from{
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+.from1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+label{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.svg{
+    display: flex;
+    border-bottom: 1px solid black ;
+    align-items: center;
+}
+.svg > img{
+    width: 20px;
+}
+
+
+input{
+    padding:17px;
+    border: none;
+    width: 100%;
+    }
+input:focus{
+    outline: none;
+}
+    .forgot{
+        text-align: end;
+        margin: 10px;
+    }
+    
+    
+    button{
+        padding: 10px;
+        width: 100%;
+        background-color: burlywood;
+        border-radius: 20px;
+        font-size: 30px;
+        font-family: monospace;
+    }
+    .Sign_up{
+        text-align: center;
+        margin: 40px;
+
+    }
+    img{
+        width: 40px;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        
+    }
+
+
